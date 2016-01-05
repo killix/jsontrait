@@ -1,0 +1,16 @@
+[package]
+name = "jsontrait"
+version = "0.1.0"
+authors = ["Craig M. Brandenburg <c.m.brandenburg@gmail.com>"]
+license = "MIT"
+description = "Traits that abstract away the underlying JSON serialization library"
+repository = "https://github.com/cmbrandenburg/jsontrait"
+keywords = ["json", "rustc-serialize", "serde", "serde_json", "serialization"]
+
+[dependencies]
+rustc-serialize = "0.3"
+serde = "0.6"
+serde_json = "0.6"
+
+[lib]
+name = "jsontrait"
